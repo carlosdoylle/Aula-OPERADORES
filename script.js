@@ -1,4 +1,4 @@
-let kelvin=null
+  let kelvin=null
 let fahrenheit=null
 let celsius=null
 
@@ -36,9 +36,8 @@ fahrenheit=null
  kelvin=null
  fahrenheit=null
 celsius=null
-
-fahrenheit = parseFloat(prompt("insira a unidade em F que sera convertida em k"))
-
+/* fahrenheit = parseFloat(prompt("insira a unidade em F que sera convertida em k"))
+ */
 kelvin= fahrenheit+273.15
 console.log(kelvin+"K")
 
@@ -54,11 +53,59 @@ console.log(residencia)
 
 
 
-let residencia2= 280*0.05
-
-residencia2= residencia2- 15/100
-
-console.log(residencia2)
+let residencia2= 280*quilo
 
 
+ residencia2=  (85/100) *residencia2
 
+console.log("o valor total a ser pago com desconto de 15% é "+residencia2+"R$")
+
+
+//solicitar o nome do usuario e 3notas calcular a media
+//informar o nome e a media do usuario e se a media for maior que 6
+//dar parabens e se for menor que 6 informar que foi reprovado
+
+/* let nome = prompt("insira seu nome ")
+let nota1= Number(prompt("insira a sua nota"))
+let nota2= Number(prompt("insira a sua nota"))
+let nota3= Number(prompt("insira a sua nota")) */
+
+/* let totalNota= (nota1+nota2+nota3) /3;
+
+if (totalNota>= 7){
+  console.log(nome+" sua media foi" +totalNota+" pontos")
+  console.log("aprovado!!")
+}else{
+  console.log(nome+" sua media foi" +totalNota+" pontos")
+  console.log("Reprovado!!")
+} */
+
+//solicitar um numero para usuario
+//validar se e par ou imapar e imprimir
+
+/* let numero= Number(prompt("insira a um numero"))
+
+let numero2=numero
+
+let resto= numero2 %=2;
+
+if(resto===0 ){
+  alert(numero+" é par ")
+  console.log(numero+" é par ")
+}else{
+  alert(numero+" é impar ")
+  console.log(numero+" é impar ")
+} */
+
+
+//solicitar 2 numeros para o usuario 
+//e exibir o maior
+
+let numero1= Number(prompt("insira a um numero"))
+let numero2= Number(prompt("insira a um numero"))
+
+if(numero1>numero2){
+  console.log("o maior numero é "+ numero1)
+}else{
+  console.log("o maior numero é "+ numero2)
+}
