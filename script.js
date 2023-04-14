@@ -101,11 +101,19 @@ if(resto===0 ){
 //solicitar 2 numeros para o usuario 
 //e exibir o maior
 
-let numero1= Number(prompt("insira a um numero"))
-let numero2= Number(prompt("insira a um numero"))
+let num1= Number(prompt("insira a um numero"))
+let num2= Number(prompt("insira a um numero"))
+let num3= Number(prompt("insira a um numero"))
 
-if(numero1>numero2){
-  console.log("o maior numero é "+ numero1)
-}else{
-  console.log("o maior numero é "+ numero2)
+
+if (num1 >= num2 && num1 >= num3) {
+  console.log("O maior número é: " + num1);
+
+} else if (num2 >= num3) {
+  console.log("O maior número é: " + num2);
+
+} else {
+  console.log("O maior número é: " + num3);
 }
+
+  
